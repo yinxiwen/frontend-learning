@@ -1,7 +1,10 @@
 最近有个可视化作业，我想用网站来展示，但是最近用ai写了几个前端发现效果不好，所以打算先学一下前端的知识在去更好的用ai来写前端。
 同时也想记录一下自己学习的过程，提高学习效率，就选择上传到GitHub上。突然发现现在又不会用这个git了，看了之前的文档也没想起来细节，看来以后文档的写得更详细一些。
 现在先去回忆一下git的使用方式。
-1.open git bash here
+1.在项目文件夹open git bash here
 2.git init 初始化仓库
 3.在github上创建仓库
 4.连接远程仓库git remote add origin https://github.com/你的用户名/my-first-git.git  复制与粘贴是CTRL/shift +insert
+5.修改完本地文件后就给先git add+文件完整名字或".",然后再提交给本地仓库git commit -m "提交说明"
+6.第一次上传到线上仓库 git push -u origin main ,后续只需要git push origin main 可能先要更改本地分支，将master改为main 用git branch -M main
+然后就可以在github上看见自己的项目了。
